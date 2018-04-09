@@ -3,8 +3,8 @@ namespace: io.cloudslang.demo
 operation:
     name: uuid
 
-    phyton_action:
-      script:
+    python_action:
+      script: |
         import uuid
         uuid = str(uuid.uuid1())
 
